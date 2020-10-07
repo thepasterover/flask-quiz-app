@@ -1,0 +1,358 @@
+body{
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    background-color: #fff;
+    /* background-color: #71baed; */
+}
+
+.home-bg{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-bg .home-div {
+    flex: 1;
+}
+
+
+/* Nav CSS */
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #8b95bd;
+    /* height: 50px; */
+    padding: 0.8%;
+}
+
+.nav-links {
+    list-style: none;
+    margin-bottom: 0em;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 15px;
+    margin-left: 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #3e4667;
+}
+
+
+/* Home page CSS */
+
+.home-img{
+    width: auto;
+    height: 525px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.home-div {
+    background-color: #71baed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+.info-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.info-div h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.info-div h4 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.info-div a {
+    background-color: #fad500;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 40px;
+    border-radius: 30px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+
+/* Login Page CSS */
+
+.login-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.login-img {
+    width: 61%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.login-intro{
+    margin-bottom: 50px;
+    margin-left: 7px;
+    color: #8e8e8e;
+}
+
+.login-intro h1{
+    font-weight: 800;
+    color: #000;
+}
+
+
+
+.form-para {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 27px;
+}
+
+.form-para svg {
+    border: none;
+    margin-right: 20px;
+    padding: 5px;
+    fill: #8e8e8e;
+}
+
+.form-para input {
+    border: none;
+}
+
+.form-para input ::placeholder{
+    color: #8e8e8e;
+}
+
+.form-para p {
+    color: #8e8e8e;
+    font-weight: 400;
+}
+.form-para span {
+    margin-left: 15px;
+
+}
+
+.form-para p input{
+    margin-left: 100px;
+}
+
+
+/* Register Page css */
+
+
+
+.register-main{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+}
+
+.register-img{
+    width: 44.2%;
+    height: auto;
+}
+
+.register-form {
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.register-form p{
+    display: block;
+    margin-left: auto;
+}
+
+.register-intro{
+    margin-top: 28px;
+    margin-left: 7px;
+    color: #8e8e8e;
+    margin-bottom: 0px;
+}
+
+.register-intro h1{
+    font-weight: 800;
+    color: #000;
+}
+
+
+
+
+
+/* Question Page CSS */
+
+.ques-div {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qnum {
+    margin-top: 25px;
+    color: #989cad;
+}
+
+form hr {
+    border: 1px dashed #525976;
+}
+
+
+.ques-heading {
+    font-weight: 800;
+    margin-bottom: 33px;
+    /* color: #fff; */
+    color: #3e4667;
+    max-width: 100%;
+}
+
+
+.options-div li {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    border: 3px solid #989cad;
+    border-radius: 15px;
+    padding: 10px;
+    width: 95%;
+    height: 30px;
+    margin-bottom: 17px;
+    margin-top: 15px;
+}
+
+.options-div label{
+    font-size: 20px;
+    color: #3e4667;
+    margin-top: 7px;
+}
+
+/* .options-div input{
+    margin-top: 10px;
+} */
+
+.sub-btn {
+    display: block;
+    margin-left: auto;
+}
+
+.check-circle{
+    font-size: 1.4em;
+    color: #3e4667;
+}
+
+/* Scores Page CSS */
+
+.score-main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+
+.score-head {
+    font-weight: 600;
+    margin-top: 30px;
+    font-style: bold;
+    color: #49535f;
+    
+}
+
+.score-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid #107eeb;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 15px;
+}
+
+.score-circle h1{
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 20px;
+    
+    color: #49535f;
+}
+
+.congrats-cls{
+    margin-top: 15px;
+    font-style: bold;
+    color: #49535f;
+}
+
+.highest-score{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border: 50px;
+    background-color: #107eeb;
+    color: #fff;
+    border: 2px solid #107eeb;
+    border-radius: 100px;
+    padding: 5px;
+    font-size: 26px;
+    width: 40%;
+}
+
+.high-score-name {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    color: #49535f;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 18px;
+}
+
+.redirect-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 60%;
+}

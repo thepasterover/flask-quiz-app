@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="score-main">
+            <div class="highest-score">
+                <div>Highest Score: 69 by </div> <div class="high-score-name">John</div>
+            </div>
+            <h1 class="score-head">Your Score</h1>
+            <div class="score-circle">
+                <h1>{{ g.user.marks }}</h1>
+            </div>
+            <h1 class="congrats-cls">Congratulations! <i class="fas fa-glass-cheers"></i></h1>
+            <div class="redirect-links">
+                <a href="{{ url_for('home') }}"><i class='fas fa-angle-left'></i> Home</a>
+                <a href="#" class="btn btn-primary disabled" >Retake Test</a>
+            </div>
+    </div>
+    <!-- <p>Your Final Score is {{ g.user.marks }}. Congratulations <3</p> -->
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div class="ques-div">
+        <form method="post" novalidate>
+            <h2 class="qnum">Question {{q.q_id}}</h2>
+            <div class="dotted-spaced"></div>
+            <hr>
+            <h1 class="ques-heading">{{q.ques}}</h1>
+            <div class="options-div">
+                {{ form.options(class="list-unstyled") }}
+            </div>
+            {{ form.submit(class="btn btn-primary btn-lg sub-btn") }}
+        </form>
+        <!-- <span class="check-circle">
+            <i class="fas fa-check-circle"></i>
+        </span> -->
+    </div>
+
+{% endblock %}
+

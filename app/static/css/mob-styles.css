@@ -1,0 +1,178 @@
+@media  all and  (max-width: 600px) {
+
+  nav {
+    /* height: 70px; */
+    padding: 2%;;
+  }
+
+  /* Home Page css */
+  .home-img{
+    width: auto;
+    height: 400px;
+    order: 1;
+  }
+
+  .home-div {
+    flex-direction: column-reverse;
+  }
+
+  .info-div{
+    align-items: center;
+  }
+
+  .info-div h1 {
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .info-div h4 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    /* width: 95%; */
+  }
+
+  .home-div a {
+    color: #fff;
+    order: 2;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 7%;
+  }
+
+
+
+  /* Login page css */
+  .login-img {
+    display: none;
+  }
+  
+  .login-form {
+    margin-top: 10%;
+  }
+
+  /* Sign UP page css */
+
+  .register-img{
+    display: none;
+  }
+
+  .register-main{
+    margin: 5%;
+    margin-top: 2%;
+    /* margin-top: 5%; */
+  }
+
+
+
+  /* Question Page CSS */
+
+  .ques-div{
+    font-size: 20px;
+    margin: 7%;
+    margin-top: 2%;
+  }
+
+  .qnum{
+    font-size: 25px;
+  }
+
+  .ques-heading{
+    font-size: 25px;
+  }
+
+  .options-div{
+    margin-top: 13%;
+  }
+
+  .options-div label{
+    font-size: 17px;
+  }
+  .sub-btn{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  /* Score Page csss */
+  .score-main{
+    margin-top: 30px;
+  }
+
+  .highest-score{
+    margin-top: 30px;
+    font-size: 18px;
+    width: 80%;
+  }
+
+  
+  .score-head {
+    font-size: 35px;
+    margin-top: 40px;
+  }
+
+  .score-circle {
+    border-width: 8px;
+    width: 120px;
+    height: 120px;
+    margin-top: 32px;
+  }
+
+  .score-circle h1{
+    font-size: 40px;
+    padding: 17px;
+  }
+
+  .congrats-cls{
+    margin-top: 35px;
+    font-size: 30px;
+  }
+
+  .redirect-links{
+    margin-top: 60px;
+    width: 70%;
+  }
+  
+  
+}
+
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
